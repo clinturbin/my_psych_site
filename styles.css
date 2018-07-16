@@ -1,0 +1,85 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    background-color: rgb(229, 229, 229);
+    margin: 0;
+    --psych_logo_green: rgb(122, 187, 59);
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    background-color: var(--psych_logo_green);
+    color: white;
+    font-size: 3.5em;
+    padding: .2em 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1.5px 1.5px 3px gray;
+}
+
+hr {
+    width: 75%;
+    margin: auto;
+    border-top: 2px solid var(--psych_logo_green);
+}
+
+footer {
+    height: 3em;
+    margin: 1em 0 0 0;
+    background-color: var(--psych_logo_green);
+    color: white;
+    font-size: 1.5em;
+}
+
+footer > p {
+    padding: 1em 0 0 2em;
+}
+
+
+.show_info {
+    width: 80%;
+    font-size: 1.6em;
+    margin: auto;
+}
+
+
+.character_bio {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+}
+
+.bio_pic {
+    width: 100%;
+}
+
+.cast {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.character_info {
+    width: 100%;
+}
+
+.character_name, .actor_name {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.character_name {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.actor_name {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
